@@ -1,7 +1,7 @@
-const API_KEY = 'bdd58af7641fa2b2f59a5ce35af3130c'
-
 // https://gnews.io/api/v4/search?q=example&apikey=bdd58af7641fa2b2f59a5ce35af3130c
 const url = 'https://gnews.io/api/v4/search?q='
+const API_KEY = 'bdd58af7641fa2b2f59a5ce35af3130c'
+
 const searchButton = document.getElementById('search-button')
 const searchText = document.getElementById('search-text')
 let curSelectedNav = null
